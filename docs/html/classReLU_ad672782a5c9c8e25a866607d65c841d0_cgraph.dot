@@ -1,0 +1,12 @@
+digraph "ReLU::feed_forward"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node4 [label="ReLU::feed_forward",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Forward pass of the ReLU Layer."];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="ReLU::set_input",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classReLU.html#a37eeb9ac825dac583e672c62a060ab79",tooltip="Set input."];
+  Node4 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="ReLU::clear_output",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classReLU.html#ab9592200f34970ecd304c8fc8aa4ecb4",tooltip="Clear output."];
+}

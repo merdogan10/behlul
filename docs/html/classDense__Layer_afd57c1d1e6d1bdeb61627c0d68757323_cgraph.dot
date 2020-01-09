@@ -1,0 +1,10 @@
+digraph "Dense_Layer::feed_forward"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="Dense_Layer::feed_forward",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Forward pass of the Dense Layer."];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Dense_Layer::set_input",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classDense__Layer.html#a4881d4ef85a5c50fd4b934eb1a83af0d",tooltip="Set input."];
+}

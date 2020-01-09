@@ -1,0 +1,10 @@
+digraph "ReLU::back_propagation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="ReLU::back_propagation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Backward pass of the ReLU Layer."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="derivative",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$relu_8cpp.html#a4676c8f16813e0e7d908054adc89de77",tooltip=" "];
+}

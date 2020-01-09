@@ -1,0 +1,7 @@
+digraph "Conv_Layer"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Conv_Layer\n|+ height\l+ width\l+ depth\l+ filter_size\l+ stride\l+ num_filters\l+ input\l+ output\l+ gradients\l+ filters\l+ gradient_filters\l+ accumulated_gradient\l_filters\l|+ Conv_Layer()\l+ set_input()\l+ clear_output()\l+ feed_forward()\l+ back_propagation()\l+ update_weights()\l+ save_filters()\l+ load_filters()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Convolutional Layer."];
+}
